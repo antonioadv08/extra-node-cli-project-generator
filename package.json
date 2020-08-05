@@ -1,0 +1,26 @@
+{
+  "name": "node-cli-generator-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioadv08/extra-node-cli-project-generator.git"
+  },
+  "author": "antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonioadv08/extra-node-cli-project-generator/issues"
+  },
+  "bin":{"npm-cli-project-creator":"./index.js"},
+  "homepage": "https://github.com/antonioadv08/extra-node-cli-project-generator#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.3",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  }
+}

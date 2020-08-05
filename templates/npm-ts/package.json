@@ -1,0 +1,21 @@
+{
+  "name": "npm-ts",
+  "version": "1.0.0",
+  "description": "# Requirements * ... * ... * ...",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "directories": {
+    "test": "test",
+    "build":"tsc",
+    "watch":"tsc -w"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha":"8.1.0"
+  },
+  "author": "antonio",
+  "license": "MIT"
+}
