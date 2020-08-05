@@ -1,20 +1,16 @@
 {
-  "name": "<%= projectName %>",
+  "name": "tesu",
   "version": "1.0.0",
   "description": "# Requirements * ... * ... * ...",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-
+  "main": "index.js",
   "directories": {
-    "test": "test",
-    "build":"tsc",
-    "watch":"tsc -w"
+    "test": "test"
   },
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "mocha":"8.1.0"
+    "mocha": "8.1.0"
   },
   "author": "antonio",
   "license": "MIT"
